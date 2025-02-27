@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>About Me</title>
+        <style>
+            #About h2 {
+                text-align: center;
+                font-size: 32px;
+                font-weight: bold;
+            }
+            .about-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                padding: 20px;
+            }
+            .about-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .about-item img {
+                width: 100%;
+                max-width: 300px;
+                border-radius: 10px;
+            }
+            .about-details h3 {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .about-details p {
+                font-size: 16px;
+            }
+            .view-more {
+                color: blue;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+            <div class="logo"><span>Lepcha</span></div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="experiences.html">Experiences</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
+        </nav>
+    <section id="About">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-item">
+                <img src="family.jpg" alt="Family Tree">
+                <div class="about-details">
+                <h3>Family Tree</h3>
+                <p>Information about family structure and background... <span class="view-more">view more</span></p>
+            </div>
+        </div>
+        <div class="about-item">
+            <img src="images.jpeg" alt="Personal Details">
+            <div class="about-details">
+                <h3>Personal Details</h3>
+                <p>Basic personal information and background... <span class="view-more">view more</span></p>
+            </div>
+        </div>
+        <div class="about-item">
+            <img src="student.jpeg" alt="Occupation">
+            <div class="about-details">
+                <h3>Occupation</h3>
+                <p>Current field of study and career aspirations... <span class="view-more">view more</span></p>
+            </div>
+        </div>
+        <div class="about-item">
+            <div class="about-details">
+            <h3>Address</h3>
+                <p>Location and residence details... <span class="view-more">view more</span></p>
+            </div>
+            </div>
+        </div>
+    </section>
+        <footer>
+            <p>&copy; 2025 Lepcha. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
